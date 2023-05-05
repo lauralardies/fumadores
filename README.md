@@ -8,7 +8,7 @@ Este ejercicio nos presenta el problema de los fumadores y cómo resolverlo.
 
 ¿En qué consiste el **problema de los fumadores**? En un grupo de fumadores cada fumador tiene determinados recursos, pero esos recursos no son todos los que necesita para alcanzar su objetivo (fumar). Por lo tanto, el fumador necesita de los recursos de los otros fumadores del grupo. Este problema es el típico ejemplo de exclusión mutua/interbloqueo, puesto que tienes un recurso y se lo das a otro para tu beneficio de que el otro te de su recurso, pero te quedas en la misma situación de antes ya que has perdido el recurso que previamente tenías. 
 
-Para este problema hemos hecho uso del m´ódulo RabbitMQ.
+Para este problema hemos hecho uso del módulo RabbitMQ.
 
 ## Código
 Todos los archivos están guardados en la carpeta `Fumadores`.
